@@ -4,8 +4,9 @@
     <list default="true" readonly="true" id="e8a88e8d-b943-49fa-aac2-2c8b151e1331" name="Default" comment="" />
     <ignored path="gaofen.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/gaofen_planB.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390527220342" ignored="false" />
-    <file path="/about_us.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390527904101" ignored="false" />
+    <file path="/gaofen_planB.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390528938513" ignored="false" />
+    <file path="/about_us.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390528905894" ignored="false" />
+    <file path="/product.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390528967338" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +66,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gaofen_planB.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/gaofen_planB.html">
+      <file leaf-file-name="gaofen_index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="29" selection-start="5129" selection-end="5129" vertical-scroll-proportion="-9.428572">
+            <state line="63" column="34" selection-start="2562" selection-end="2562" vertical-scroll-proportion="-2.9814816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_us.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="product.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="42" selection-start="6653" selection-end="6653" vertical-scroll-proportion="0.49072164">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_us.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="48" selection-start="6035" selection-end="6035" vertical-scroll-proportion="0.33333334">
+            <state line="64" column="37" selection-start="2650" selection-end="2650" vertical-scroll-proportion="-4.648148">
               <folding />
             </state>
           </provider>
@@ -93,8 +103,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html/gaofen_planB.html" />
         <option value="$PROJECT_DIR$/html/about_us.html" />
+        <option value="$PROJECT_DIR$/html/gaofen_planB.html" />
+        <option value="$PROJECT_DIR$/html/product.html" />
       </list>
     </option>
   </component>
@@ -318,7 +329,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,23 +413,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/gaofen_planB.html">
+    <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="11" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/gaofen_planB.html">
+    <entry file="file://$PROJECT_DIR$/html/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="29" selection-start="5129" selection-end="5129" vertical-scroll-proportion="-9.428572">
+        <state line="64" column="37" selection-start="2650" selection-end="2650" vertical-scroll-proportion="-4.648148">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/about_us.html">
+    <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="48" selection-start="6035" selection-end="6035" vertical-scroll-proportion="0.33333334">
+        <state line="63" column="34" selection-start="2562" selection-end="2562" vertical-scroll-proportion="-2.9814816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="42" selection-start="6653" selection-end="6653" vertical-scroll-proportion="0.49072164">
           <folding />
         </state>
       </provider>

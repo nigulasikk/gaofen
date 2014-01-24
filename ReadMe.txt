@@ -1,0 +1,1 @@
+下载好文件后，直接点开html/gaofen_index.html  
