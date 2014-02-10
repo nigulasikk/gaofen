@@ -6,8 +6,9 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/gaofen_planB.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390528938513" ignored="false" />
     <file path="/about_us.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390528905894" ignored="false" />
-    <file path="/product.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390528967338" ignored="false" />
-    <file path="/gaofen_index.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1390533086484" ignored="false" />
+    <file path="/product.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1392002104989" ignored="false" />
+    <file path="/gaofen_index.html" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1392002271403" ignored="false" />
+    <file path="/indexB.css" changelist="e8a88e8d-b943-49fa-aac2-2c8b151e1331" time="1392002326761" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,6 @@
   </component>
   <component name="DebuggerManager">
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -58,6 +58,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -70,11 +71,8 @@
       <file leaf-file-name="gaofen_index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="4" selection-start="5157" selection-end="5362" vertical-scroll-proportion="-3.0">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="98" column="35" selection-start="4134" selection-end="4134" vertical-scroll-proportion="-8.285714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,23 +80,26 @@
       <file leaf-file-name="product.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="209" selection-start="6612" selection-end="6612" vertical-scroll-proportion="-3.0">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="120" column="51" selection-start="4878" selection-end="4905" vertical-scroll-proportion="-6.107143">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_us.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="indexB.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/indexB.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="46" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.6863118">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_us.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="209" selection-start="6354" selection-end="6354" vertical-scroll-proportion="0.31567797">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="134" column="24" selection-start="6095" selection-end="6095" vertical-scroll-proportion="-0.8214286">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,9 +115,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/html/gaofen_planB.html" />
-        <option value="$PROJECT_DIR$/html/gaofen_index.html" />
-        <option value="$PROJECT_DIR$/html/product.html" />
         <option value="$PROJECT_DIR$/html/about_us.html" />
+        <option value="$PROJECT_DIR$/html/product.html" />
+        <option value="$PROJECT_DIR$/html/gaofen_index.html" />
+        <option value="$PROJECT_DIR$/css/indexB.css" />
       </list>
     </option>
   </component>
@@ -154,7 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,19 +165,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaofen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +252,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -313,24 +305,6 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\KK\Documents\GitHub\gaofen\ui\dist\js" />
-          <option name="myCopyRoot" value="C:\Users\KK\Documents\GitHub\gaofen\ui\dist\js" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\KK\Documents\GitHub\gaofen\ui\dist\js" />
-          <option name="myCopyRoot" value="C:\Users\KK\Documents\GitHub\gaofen\ui\dist\js" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e8a88e8d-b943-49fa-aac2-2c8b151e1331" name="Default" comment="" />
@@ -346,7 +320,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -360,10 +333,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25076923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -426,41 +400,90 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="4" selection-start="5157" selection-end="5362" vertical-scroll-proportion="-3.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="128" column="4" selection-start="5157" selection-end="5362" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="209" selection-start="6612" selection-end="6612" vertical-scroll-proportion="-3.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="91" column="46" selection-start="3851" selection-end="3851" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="209" selection-start="6354" selection-end="6354" vertical-scroll-proportion="0.31567797">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="134" column="24" selection-start="6095" selection-end="6095" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="4" selection-start="5157" selection-end="5362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="209" selection-start="6612" selection-end="6612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="209" selection-start="6354" selection-end="6354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="313" selection-end="313" vertical-scroll-proportion="0.15984406" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="61" selection-start="252" selection-end="252" vertical-scroll-proportion="0.07224335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="24" selection-start="6095" selection-end="6095" vertical-scroll-proportion="-0.8214286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="51" selection-start="4878" selection-end="4905" vertical-scroll-proportion="-6.107143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/gaofen_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="35" selection-start="4134" selection-end="4134" vertical-scroll-proportion="-8.285714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/indexB.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="46" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.6863118">
+          <folding />
         </state>
       </provider>
     </entry>

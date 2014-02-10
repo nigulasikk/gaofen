@@ -16,9 +16,11 @@ section#product_introduce .blue-p{color: #0099cc;font-size: 23px;}
 .section-title{border-bottom: solid #dcdcdc 1px;height: 60px;font-weight: 600;margin-top: 80px;}
 section#product_introduce div .row{margin-top: 60px;}
 section#product_introduce .col img{ border-radius: 2px;margin-bottom: 20px;width: 110px;}
-.downloadButton:hover{background-color:rgba(218, 212, 212, 0.51);cursor:pointer;}
-.downloadButton{font-size:30px;border:3px white solid;width:300px;border-radius: 2px;font-weight:600;}
-.neilaoweitu:hover,.nei,.lao:hover,.fen:hover,.xiang:hover,.chuang:hover,.zuo:hover,.de,.kuai:hover,.le:hover{margin-top:10px;}
+
+.downloadButton{font-size:30px;border:3px #d3d3d3 solid;width:300px;border-radius: 2px;font-weight:600;}
+.downloadButton:hover{cursor:pointer;border:3px white solid;}
+.neilaoweitu:hover,.flag,.shareHappiness:hover{margin-top:10px;}
+.flag{display: inline-block;width: 10px;height: 50px;}
 
 /*团队介绍页面*/
 section#introduce_us p { font-size: 1em; line-height: 1.5;    color: #21272d;    font-weight: 400;    margin: 0 0 1.5em;   text-align: left;}
