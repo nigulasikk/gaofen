@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>高分工程中心-关于我们</title>
+    <!-- 移动端屏幕分辨率 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 中文编码 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- IE浏览器 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap -->
+    <link href="../ui/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/indexB.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar "  role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container" style="margin-top: 20px;">
+        <div class="navbar-header">
+            <a  href="gaofen_index.html"><img src="../images/gaofenLogo.png" width="200px"></a>
+        </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs pull-right" style="font-size:15px;">
+            <li><a href="gaofen_index.html">首页</a></li>
+            <li><a href="product.html" >产品</a></li>
+            <li><a href="share.html" >技术分享</a></li>
+            <li><a href="about_us.html" >关于我们</a></li>
+            <li><a href="mailto:94695914@qq.com" >反馈</a></li>
+            <li style="border-left: 1px solid #ddd;width: 1px;margin: 14px 20px;height: 16px;"></li>
+            <!--   <li><button type="button" class="btn btn-default login" data-toggle="modal" data-target="#myModal">登陆</button></li>-->
+        </ul>
+
+    </div>
+
+</nav>
+
+<div class="titleBackground-share" style="margin-top:20px; color:#ffffff;text-align: center;">
+    <!-- dark图层-->
+    <div class="dark" >
+        <h1 class="title-h1">浙大高分工程中心</h1>
+        <p  class="title-dark" style="margin-top: 40px;width: 230px;">每一位高分人</p>
+        <p></p>
+        <p class="title-dark" style="width: 490px;">专注于网格计算，云计算，遥感大数据处理技术，</p>
+        <p></p>
+        <p class="title-dark">探索，实验，分享科技前沿技术，提供先进移动计算产品。</p>
+    </div>
+</div>
+
+<section id="introduce_us" style="text-align: left;margin-top: 30px;">
+    <div class="container" style="width: 800px;">
+        <!--  <ul class="pagination">
+              <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </ul>-->
+          <h2 style="text-align: center;">HBase写数据过程</h2>
+        <p class="pull-right" style="color: #808080">
+            <span>来源：王骏</span>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <span>发表于：2014-2-12</span>
+        </p>
+        <div class="clearfix"></div>
+        <div style="background-color: #E9E9E9;padding: 5px;border-radius: 3px;margin-bottom: 30px;">
+
+            <p>
+               <span style="font-size:20px; ">摘要：</span> 大数据时代，数据库IO已直接关系到整个系统的性能，然而IO的优化却并不简单，首当其冲的则是弄清数据库的处理机制，这里为大家分享@无尘道长的博文——从客户端和服务器两个方面解析HBase的写数据过程。
+            </p>
+
+        </div>
+        <p style="font-weight: 600;"> 1.关于多线程写</p>
+        <p>
+            在0.94.12这个版本中，对于写操作，HBase内部就是多线程，线程数量与批量提交的数据涉及的region个数相同，通常情况下不需要再自己写多线程代码，自己写的多线程代码主要是解决数据到HTable的put这个过程中的性能问题，数据进入put的缓存，当达到writeBufferSize设定的大小后才会真正发起写操作（如果不是自己控制flush），这个过程的线程数与这批数据涉及的region个数相同，会并行写入所有相关region，一般不会出现性能问题，当涉及的region个数过多时会导致创建过多的线程，消耗大量的内存，甚至会出现线程把内存耗尽而导致OutOfMemory的情况，比较理想的写入场景是调大writeBufferSize，并且一次写入适量的不同regionserver的region，这样可以充分把写压力分摊到多个服务器。
+        </p>
+        <p style="font-weight: 600;"> 2.服务端</p>
+        <p>
+
+            服务端写数据的主要过程是：写WAL日志（如果没有关闭写WAL日志）-》写memstore-》触发flush memstore（如果memstore大小超过hbase.hregion.memstore.flush.size的设置值），在flush memstore过程中可能会触发compact和split操作，在以下内容会对写put方法、flush memstore、compact和split进行讲解。
+
+        </p>
+    </div>
+
+</section>
+
+<footer  class="foot">
+    <div class="container" style="border-top:1px #dcdcdc solid;"><span class="pull-right" style="cursor: pointer;"><a href="http://weibo.com/3992849991/profile" target="_blank"><img src="../images/weibo.png"></a></span></div>
+    <address>© 2013 Gaofen Lab. All rights reserved. Privacy Terms  </address>
+
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../ui/dist/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../ui/dist/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

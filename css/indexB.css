@@ -3,8 +3,9 @@
 body { font-size: 13px;color: #333;background: #ffffff;line-height: 1.7;font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
 h1,h2,h3,h4,h5,h6{font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
 .title-h1 { color: #fff; padding: 60px 0 10px; text-align: center; margin: 0;font-size: 50px; border-bottom: 4px solid #fff; font-weight: 600; display: block; width: 440px; margin: 0 auto;  }
-.titleBackground{background-image:url("../images/cinema4.gif");background-repeat:no-repeat;background-size:100% ;background-position: 0px -320px;height:400px;}
+.titleBackground-share{background-image:url("../images/cinema4.gif");background-repeat:no-repeat;background-size:100% ;background-position: 0px -320px;height:400px;}
 .titleBackground-index{background-image:url("../images/background2.jpg");background-repeat:no-repeat;background-size:100% ;background-position: 0px 0px;height:400px;}
+.titleBackground-aboutus{background-image:url("../images/zhiquanbuilding.JPG");background-repeat:no-repeat;background-size:100% ;background-position: 0px 0px;height:400px;}
 .weight-600{font-weight: 600;}
 .foot{color: #dcdcdc;font-size: 12px;text-align: center;margin-top: 40px;}
 /*主页*/
