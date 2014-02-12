@@ -2,13 +2,14 @@
 /*通用*/
 body { font-size: 13px;color: #333;background: #ffffff;line-height: 1.7;font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
 h1,h2,h3,h4,h5,h6{font-family:  "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
-.title-h1 { color: #fff; padding: 60px 0 10px; text-align: center; margin: 0;font-size: 50px; border-bottom: 4px solid #fff; font-weight: 600; display: block; width: 650px; margin: 0 auto;  }
+.title-h1 { color: #fff; padding: 60px 0 10px; text-align: center; margin: 0;font-size: 50px; border-bottom: 4px solid #fff; font-weight: 600; display: block; width: 440px; margin: 0 auto;  }
 .titleBackground{background-image:url("../images/cinema4.gif");background-repeat:no-repeat;background-size:100% ;background-position: 0px -320px;height:400px;}
+.titleBackground-index{background-image:url("../images/background2.jpg");background-repeat:no-repeat;background-size:100% ;background-position: 0px 0px;height:400px;}
 .weight-600{font-weight: 600;}
 .foot{color: #dcdcdc;font-size: 12px;text-align: center;margin-top: 40px;}
 /*主页*/
 section#introduce .col img {  border-radius: 2px;margin-bottom: 20px;width: 110px;}
-.titleBackground .title-dark{font-size: 20px;background: rgba(0,0,0,.4);width: 600px;display: inline-block;}
+.title-dark{font-size: 20px;background: rgba(0,0,0,.4);width: 600px;display: inline-block;}
 .dark{background: rgba(0, 0, 0, 0.38);height: 100%;width: 100%;}
 .scale:hover { cursor: pointer; -webkit-transform: scale(1.1);-moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2);
 }
